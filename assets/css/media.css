@@ -1,0 +1,133 @@
+
+/*For Desktops Only*/
+
+@media screen and (min-width: 992px) {
+.background-slider{
+/*    position: absolute;*/
+        margin-top: -75px;   z-index: 1; 
+}
+}
+
+
+/*For Mobile Devices Only*/
+@media screen and (max-width: 992px) {
+    
+    .header-menu .custom-navbar{
+  background-color: rgba(13, 14, 25, 0.91);
+    z-index: 999999999999999 !important;
+    top: 0;
+    position: relative;
+    width: 100% !important;
+ 
+}
+    .background-slider{
+    margin-top: 100px !impotant;
+    
+    }
+    
+
+.carousel-control-next-icon2 {
+    margin-right: 0px;
+}
+.carousel-control-prev-icon2 {
+    margin-left: 0px;
+}
+    
+ .next-section {
+    background: #4b4c56;
+    height: auto;
+    padding-bottom: 30px;
+}   
+h1, .h1 {
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+}
+    .form-width {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
+}
+.findusmap {
+    margin-left: 0px; 
+     margin-right: 0px; 
+}
+    
+ .findusmaptext {
+    font-size: 12px !important;
+}   
+    form.form-inline {
+    margin-left: 0px;
+        margin-bottom: 20px;
+
+    }
+
+    select.form-control:not([size]):not([multiple]) {
+
+    width: 100% !important;
+}
+.custom-btn2 {
+    width: 100% !important;
+}
+    form.none {
+    margin-bottom: 30px;
+}
+    
+    .footer-wrapper{
+        padding: 30px;
+    }
+    .footer-header{
+        margin-top: 20px;
+    }
+    .m-height{
+        margin-bottom: 20px;
+    }
+    .m-height-l{
+        margin-bottom: -10px;
+    }
+    
+    .customNextBtnPrev {
+    text-align: left;
+    position: absolute;
+    margin-top: 100px;
+    z-index: 99999;
+    margin-left: -15px;
+    cursor: pointer;
+}
+.customPrevBtnNext {
+    width: 100%;
+    text-align: right;
+    z-index: 999;
+    margin-top: -231px;
+    cursor: pointer;
+    position: relative;
+}
+.product-slider {
+    background: #eaeaea;
+    padding-top: 2px;
+    padding-bottom: 10px;
+}
+.copyright {
+    font-size: 14px;
+    color: #b7b7b7;
+}
+    
+   .carousel-indicators li{
+  
+    margin-top: 0px;
+    
+}
+ 
+    
+    
+.icon-bar a {
+    padding: 4px;
+    font-size: 15px;
+    z-index: 99999 !important;
+    
+}
+    .icon-bar {
+    z-index: 9999999999 !important;
+}
+    
+}
+

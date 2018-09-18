@@ -1,0 +1,538 @@
+@font-face{
+    font-family:'Proxima Nova';
+    src: url(../fonts/proximaNova.ttf);
+}
+/*
+.header-menu{
+    position: relative;
+}
+*/
+html, body, h1,h2,h3,h4,h5,h6,p,span,div,input,textarea, selct{
+  font-family:'Proxima Nova' !important;  
+}
+.header-menu .custom-navbar{
+  background-color: rgba(13, 14, 25, 0.5);
+    z-index: 999999999999999 !important;
+    top: 0;
+    position: absolute;
+    width: 100% !important;
+ 
+}
+.dropdown-menu{
+/*     background-color: #0d1018;*/
+     background-color: rgba(13, 14, 25, 0.5);
+    
+}
+.dropdown-menu a:hover{
+/*     background-color: #0d1018;*/
+     background-color: rgba(13, 14, 25, 0.5);
+}
+
+.custom-form{
+    display: none;
+    visibility: hidden;
+}
+
+.custom-menu ul li a{
+    font-family:'Proxima Nova';
+    font-size: 15.65 px !important;
+    color: white !important;
+    font-weight: bold;
+    padding-right: 46px !important;
+}
+.custom-menu ul li a:hover{
+    color: #01fbff !important;
+}
+.custom-icon a{
+    color: white;
+    font-size: 16px;
+    
+}
+.fa-search:before {
+    content: "\f002";
+    padding-right: 65px;
+    
+}
+
+.custom-prev-icon-1 {
+    background-image: url(../images/banner-slider-icon1.png);
+}
+
+.custom-next-icon-1 {
+    background-image: url(../images/banner-slider-icon2.png);
+}
+
+.carousel-indicators li{
+   position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 9px;
+    height: 9px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    margin-top: -80px;
+    
+}
+
+.divider_one{
+    background-color: #03ffff;
+    width: 55px;
+    border: 2px solid #03ffff;
+    /* margin-top: 0; */
+    /* z-index: 9999999999999999999999; */
+    position: absolute;
+    text-align: center;
+    margin: -3px auto;
+    left: 0;
+    right: 0;
+}
+.divider_two{
+    background-color: #ec297b !important;
+    width: 55px;
+    border: 2px solid #ec297b;
+    /* margin-top: 0; */
+    /* z-index: 9999999999999999999999; */
+    position: absolute;
+    text-align: center;
+    margin: -3px auto;
+    left: 0;
+    right: 0;
+}
+.divider_three{
+    background-color: #ec297b !important;
+    width: 55px;
+    border: 2px solid #ec297b;
+    /* margin-top: 0; */
+    /* z-index: 9999999999999999999999; */
+    position: absolute;
+    text-align: center;
+    margin: 10px auto;
+    left: 0;
+    right: 0;
+}
+
+
+
+
+
+.product-header-text {
+    font-family:'Proxima Nova';
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #606060;
+    letter-spacing: 6px;
+}
+.common-margin-top{
+    margin-top: 34px;
+}
+.custom-card-footer{
+    background-color: #2e3342;
+}
+
+.custom-card-footer p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.custom-card-footer p a{
+    color: #f2f4f4;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
+}
+.card-footer p a:hover{
+    color: #07e4f6 !important;
+}
+/*
+.custom-card-footer p a:hover{
+    color: #07e4f6 !important;
+}
+*/
+.custom-card-title{
+    font-size: 22.3px;
+    color: #111112;
+   letter-spacing: 4px;
+}
+.custom-card-text{
+    font-size: 14px;
+}
+.custom-card1 {
+    background: url(../images/card1bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    border:none;
+}
+.custom-card2 {
+    background: url(../images/card2bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    border:none;
+}
+
+.custom-card3 {
+    background: url(../images/card3bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    border:none;
+}
+
+.single-card:hover{
+   -webkit-box-shadow: 0px 0px 32px -4px rgba(0,0,0,0.54);
+-moz-box-shadow: 0px 0px 32px -4px rgba(0,0,0,0.54);
+box-shadow: 0px 0px 32px -4px rgba(0,0,0,0.54); 
+}
+
+.product-head{
+    margin-bottom: 79px;
+}
+
+.product-slider {
+    background: #eaeaea;
+    padding-top: 2px;
+    padding-bottom: 70px;
+}
+.card-body {
+    height: 234px;
+    padding-top: 72px;
+}
+.first-item{
+    background: url(../images/headphone.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 445px;
+}
+.second-item{
+    background: url(../images/phone.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 445px;
+    width: 100%;
+}
+.third-item{
+    background: url(../images/power-bank.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 295px;
+}
+.fourth-item{
+    background: url(../images/band.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 295px;
+}
+.fifth-item{
+    background: url(../images/xiomi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 295px;
+}
+
+.spacer{
+    margin-top: 30px;
+}
+.spacer2{
+    margin-top: 30px;
+}
+.custom-btn{
+    width: 178px;
+    height: 52px;
+    border:2px solid #188997;
+    text-transform: uppercase;
+    color: #188997;
+    font-size: 14px;
+    font-family:'Proxima Nova';
+    background: #232733;
+    
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: 50%;
+   
+}
+.learn-more-btn{
+    width: 100%;
+    height: 100%;
+    background:rgba(75, 76, 86, .9);
+    opacity: 0;
+}
+.learn-more-btn:hover{
+   -webkit-box-shadow: 0px 0px 32px -4px rgba(0,0,0,0.54);
+-moz-box-shadow: 0px 0px 32px -4px rgba(0,0,0,0.54);
+box-shadow: 0px 0px 32px -4px rgba(0,0,0,0.54);
+}
+.next-section{
+    background: #4b4c56;
+    height: 1273px;
+}
+.next-title{
+    color: white;
+    padding-top:33px;
+}
+.next-section-slide{
+    margin-top: 70px;
+/*    position: relative;*/
+}
+.tabs-picture{
+/*    position: absolute;*/
+}
+
+.tabs-picture {
+    z-index: 9999999999 !IMPORTANT;
+    margin-top: -15px;
+    position: relative;
+}
+.black{
+    color:#495057;
+}
+
+.form-header{
+    font-family:'Proxima Nova' !important; 
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+.custom-btn1{
+    height: 50px;
+    border:2px solid #188997;
+    text-transform: uppercase;
+    color: #188997;
+    font-size: 14px;
+    font-family:'Proxima Nova';
+    background: #232733;
+    cursor: pointer;
+   
+}
+.custom-btn1:hover{
+    height: 50px;
+    border:2px solid #188997;
+    text-transform: uppercase;
+    color: #188997;
+    font-size: 14px;
+    font-family:'Proxima Nova';
+    background: #232733;
+   
+}
+.custom-btn1:active{
+    height: 50px;
+    border:2px solid #188997;
+    text-transform: uppercase;
+    color: #188997;
+    font-size: 14px;
+    font-family:'Proxima Nova';
+    background: #232733;
+   
+}
+.find-us-section{
+    margin-bottom: 50px;
+}
+.form-width{
+    padding-left: 190px;
+    padding-right: 50px;
+    margin-top: 20px;
+}
+
+input::placeholder{
+    color:#ccc !important;
+    font-size: 14px !important;
+    letter-spacing: 3px !important;
+}
+textarea::placeholder{
+    color:#ccc !important ;
+    font-size: 14px !important;
+    letter-spacing: 3px !important;
+}
+
+.form-control {
+    border-radius: 0.15rem;
+}
+.form-group {
+    margin-bottom: 2.75rem;
+}
+
+input, textarea{
+    padding: 10px !important;
+}
+
+.findusmap{
+    background: url(../images/findusmap.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    margin-left: 50px;
+    margin-right: 120px;
+    
+}
+
+.findusmaptext{
+    text-align: center;
+    padding: 12px;
+    letter-spacing: 3px !important;
+    font-size: 17px;
+    color: #505050;
+}
+form.form-inline {
+    margin-left: 50px;
+}
+
+.ml-sm-3, .mx-sm-3 {
+    margin-left: 0rem !important;
+}
+
+select.form-control:not([size]):not([multiple]) {
+    height: 49px;
+    width: 230px !important;
+    margin-top: 11px;
+}
+
+.custom-btn2 {
+    height: 50px !important;
+    border: 2px solid #188997;
+    text-transform: uppercase;
+    color: #188997;
+    font-size: 14px;
+    font-family: 'Proxima Nova';
+    background: #232733;
+    cursor: pointer;
+    width: 124px !important;
+}
+.custom-btn2:hover{
+    height: 50px;
+    border: 2px solid #188997;
+    text-transform: uppercase;
+    color: #188997;
+    font-size: 14px;
+    font-family: 'Proxima Nova';
+    background: #232733;
+    cursor: pointer;
+    width: 124px !important;
+   
+}
+select{
+    font-size: 14px !important;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.footer-wrapper{
+    background: #232733;
+    padding: 70px
+}
+.footer-header{
+    font-size: 20px;
+    font-weight: 500;
+    color:#b7b7b7;
+    text-align: left;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.footer-text a{
+    font-size: 14px;
+    color: #666;
+}
+.footer-text a:hover{
+    font-size: 14px;
+    color: #13c6cb;
+}
+.footer-text .fab{
+    color:#b7b7b7 !important;
+}
+.customHR{
+    border-bottom: 1px solid #b7b7b7;
+}
+.copyright{
+    font-size: 18px;
+    color: #b7b7b7;
+}
+
+
+.owl-item .col-md-4{
+    max-width: 100% !important;
+}
+
+
+.customNextBtnPrev {
+    text-align: left;
+    position: absolute;
+    margin-top: 100px;
+    z-index: 99999;
+    margin-left: -15px;
+    cursor: pointer;
+}
+.customPrevBtnNext {
+    width: 100%;
+    text-align: right;
+    z-index: 999;
+    margin-top: -183px;
+    cursor: pointer;
+}
+
+/*social media icons*/
+
+.icon-bar{
+    position:fixed;
+    top: 40%;
+     -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: #13c6cb;
+  font-size: 20px;
+}
+.icon-bar a:hover {
+  background-color: #000;
+}
+.facebook {
+  background: #232733;
+  color: white;
+  border-bottom: 1px solid #13c6cb;
+}
+.g-plus {
+  background: #232733;
+  color: white;
+  border-bottom: 1px solid #13c6cb;
+}
+.twitter {
+  background: #232733;
+  color: white;
+  border-bottom: 1px solid #13c6cb;
+}
+.phone {
+  background: #232733;
+  color: white;
+  border-bottom: 1px solid #13c6cb;
+}
+
+.search-icon.custom-icon {
+    display: inline-flex;
+}
+.form-inline .form-control {
+    display: inline-block;
+    width: 150px;
+    height: 28px;
+    vertical-align: middle;
+}
+i.fas.fa-search.custom-search {
+    margin-top: 5px;
+    margin-left: 7px;
+}
